@@ -16,6 +16,7 @@ if(option==2){
 if(option==3){
     result=num*num_2;
     console.log(num * num_2);
+    
 }
 if(option==4){
     result=num*num_2;
