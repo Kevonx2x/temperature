@@ -12,9 +12,20 @@ h2{
     border-color: black;
     border-radius: 2px;
     color: azure;
+    margin-top: 3rem;
 }
 .btn:hover{
     background-color: rgb(38, 78, 44);
+}
+.header-init{
+    background-image: url(./temp-img/diverse-journalists-hosting-morning-show.jpg);
+    background-position: 75% 25%;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 .site-init{
     text-align: center;
@@ -23,4 +34,8 @@ h2{
     display: flexbox;
     flex-direction: column;
     justify-content: center;
+}
+.sun-icon{
+    font-size: 75px;
+    margin-top: 20px;
 }
