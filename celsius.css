@@ -1,3 +1,10 @@
+*{
+    margin:0;
+    padding:0;
+}
+p{
+    line-height: 1.5rem;
+}
 a{
     background: white;
 }
@@ -38,4 +45,26 @@ h2{
 .sun-icon{
     font-size: 75px;
     margin-top: 20px;
+}
+img{
+    max-width: 50%;
+    height: 175px;
+    width: 175px;
+}
+.container{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    display: inline-flex;
+    box-sizing: border-box;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+.display-inline-block{
+    display: inline-block;
+    vertical-align: top;
 }
