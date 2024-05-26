@@ -42,6 +42,7 @@ h2{
     display: flexbox;
     flex-direction: column;
     justify-content: center;
+
 }
 .sun-icon{
     font-size: 75px;
@@ -53,7 +54,8 @@ img{
     width: 120px;
 }
 .container{
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
@@ -67,10 +69,18 @@ img{
     margin-left: auto;
     height: 200px;
 }
+.main-flex-box a:hover{
+    text-decoration: underline;
+}
 .main-flex-box p{
     line-height: 1.5rem;
     margin-top: 2rem;
+
 }
+.main-flex-box p:hover{
+    text-decoration: solid;
+}
+
 .main-flex-box a{
     color: black;
     text-decoration: none;
@@ -90,4 +100,25 @@ img{
 .display-inline-block img {
     margin-right: 1rem;
     justify-content: right;
+}
+
+hr{
+    margin-top: 1rem;
+
+    height: 3px;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+footer nav{
+    display: flexbox;
+    margin: 5px;
+    padding: 5px;
 }
